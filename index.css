@@ -1,0 +1,77 @@
+* {
+	color: white;
+	border: 1px solid grey;
+}
+
+body { 
+	padding-top: 70px; 
+}
+
+body, html {
+	background: #121112; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left top, #121112, #212021); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #121112, #212021); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #121112, #212021); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #121112, #212021); /* Standard syntax */	
+    height: 100%;
+}
+
+.col-md-4 {
+	text-align: center;
+}
+.animate {
+	display: none;
+}
+
+.grad {
+  background: #121112; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #121112, #212021); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #121112, #212021); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #121112, #212021); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #121112, #212021); /* Standard syntax */
+}
+
+.big-image {
+	width: 100%;
+}
+
+
+
+.parallax1 {
+/*https://unsplash.com/@brenomachado*/
+    background-image: url('file:///Z:/perso/html/sublime/pictures/lightning.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+	font-style: bold;
+}
+.slidein {
+}
+
+.para {
+
+}
+
+.parallax2 {
+    /*https://unsplash.com/@hpeurane*/
+    background-image: url('file:///Z:/perso/html/sublime/pictures/dark-podcast.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
