@@ -3,7 +3,8 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#flip").click(function(){
-        $("#panel").slideDown("slow");
-    });
+	$(".glow").hover(function(){
+		$(this).toggleClass("shadow");
+	});
 });
+
